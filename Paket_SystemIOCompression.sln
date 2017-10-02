@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26906.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{8AEC515C-45C8-4332-8114-BE3FE8C682D7}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paket_SystemIOCompression", "Paket_SystemIOCompression\Paket_SystemIOCompression.csproj", "{6102A43A-01EF-4037-8DBC-8F40BC6BBF28}"
 EndProject
 Global
